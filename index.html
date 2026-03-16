@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Ilyas Yildiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="logo">Ilyas<span>Yildiz</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <img src="images/PhotoMoi.png" alt="Ma Photo" class="profile-pic">
+
+            <h1>Salut, je suis <span class="highlight">Ilyas Yildiz</span></h1>
+            <p>Je suis Developper full-stack Étudiant en BUT Informatique (Université Paris-Saclay). Voici la liste de mes projets personnels et professionels</p>
+            <a href="#projects" class="btn">Voir mes travaux</a>
+        </div>
+    </header>
+
+    <section id="projects" class="container">
+        <h2 class="section-title">Mes Projets</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <div class="project-img" style="background-image: url('images/LeRatDeWallStreet.png');"></div>
+                <div class="project-info">
+                    <h3>Création d'un jeu massivement multijoueur d'action en bourse (En cours) (HTML/CSS/JS)</h3>
+                    <p> Le Rat de Wall Street est un party game multijoueur jouable sur téléphone, avec un écran commun projeté pour tous les participants. Dans ce jeu, la réactivité est la clé du succès. L'objectif était de créer une expérience multijoueur où chaque utilisateur peut spéculer sur un cours boursier dynamique, géré par un moteur algorithmique côté serveur. Développée avec Node.js et Express, l'architecture repose sur la puissance des WebSockets via Socket.io pour garantir une latence minimale : chaque variation du marché et chaque transaction est diffusée instantanément à l'ensemble des participants. L'interface utilise Chart.js pour une visualisation graphique des données. Ce jeu est en cours de développement. Je conseille fortement d’aller voir le GDD (Game Design Document) dans le dépôt GITHUB ci-dessous.</p>
+                    <div class="tags">
+                        <span>HTML5</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Express.js</span>
+                        <span>Socket.io</span>
+                        <span>Architecture Client-Serveur</span>
+                        <span>Cloud Hosting</span>
+                        <span>Railway</span>
+                        <span>UML Modeling</span>
+                        <span>UX / UI Design</span>
+                    </div>
+                    <a href="https://github.com/Liachu/LeRatDeWallStreet" class="project-link">Voir le github →</a>
+                    <a href="https://github.com/Liachu/LeRatDeWallStreet/blob/main/GDD_LeRatDeWallStreet.pdf" class="project-link">Voir le GDD (conseillé) →</a>
+                </div>
+            </div>
+            </div>
+
+            
+            <div class="project-card">
+                <div class="project-img" style="background-image: url('images/Pixel_Quest.webp');"></div>
+                <div class="project-info">
+                    <h3>Pixel Quest, Jeu vidéo 2D à niveaux (C++)</h3>
+                    <p> Pixel Quest est un jeu vidéo 2D en pixel art où le joueur incarne un personnage coincé dans une mystérieuse demeure hantée. Son objectif : éviter les esprits errants et survivre le plus longtemps possible en se faufilant habilement entre les obstacles et en atteignant les portes de chaque niveau pour atteindre le suivant. Les pièces dispersées dans la pièce sont des bonus. Il faut les récupérer en esquivant les ennemis. Ce jeu a été réalisé avec une direction artistique rétro et une ambiance immersive</p>
+                    <div class="tags">
+                        <span>C++</span>
+                        <span>Programmation Orientée Objet (POO)</span>
+                        <span>Game Loop</span>
+                    </div>
+                    <a href="https://github.com/Liachu/Pixel_Quest_Ilyas_Yildiz" class="project-link">Voir le github →</a>
+                </div>
+            </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img" style="background-image: url('images/Projet_Realex.png');"></div>
+                <div class="project-info">
+                    <h3>Conception, modélisation et création  d'une base de données pour un cabinet d'avocat (SQL)</h3>
+                    <p> Conception d'un modèle relationnel complet sous Oracle permettant la gestion des dossiers, clients et prestations, avec un système automatisé de calcul des salaires basé notamment sur les prestations. Utilisation de contraintes d'intégrité, de vues et de procédures stockées.</p>
+                    <div class="tags">
+                        <span>SQL</span>
+                        <span>Oracle / SQLite</span>
+                        <span>MCD</span>
+                        <span>Analyse métier & Modélisation</span>
+                        <span>Intégrité des données</span>
+                    </div>
+                    <a href="https://docs.google.com/document/d/1YAZGgRKkhsuNKrOO_uUFzae-Q_0rXA-PD4up5a0rVgM/edit?tab=t.0" class="project-link">Voir le code →</a>
+                </div>
+            </div>
+            </div>
+
+            
+    </section>
+    
+
+    <footer id="contact">
+        <p>© 2026 Prénom - Codé avec passion</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
